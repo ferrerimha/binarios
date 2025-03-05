@@ -10,7 +10,7 @@ COPY . /app
 # Instalar as bibliotecas do projeto
 RUN pip install tkinter tk
 
-RUN python main
+RUN python main.py
 
 # Liberar a porta 8000 para acesso ao site
 EXPOSE 8000  
