@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app  
 
 # Instalar as bibliotecas do projeto
-RUN pip install tkinter tk
+RUN pip install selenium tk
 
 RUN python main.py
 
